@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html ng-app="kenApp">
+<head>
+    <title>Inputs OnlineShop</title>
+
+    <!-- styles libraries -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="app.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+
+</head>
+
+<body ng-cloak>
+
+    <div>
+        <!-- Application Navigation Menu   -->
+        <nav>
+            <div class="container">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <h3>
+                            <a href="#/"></a>
+                            <b><em>Acre Moja Online Store</em></b>
+                        </h3>
+                    </li>
+                    <li>
+                        <a href="#/home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#/about">About</a>
+                    </li>
+                </ul>
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="glyphicon glyphicon-shopping-cart" data-toggle="dropdown"></span>
+                            Items  <span class="badge">1</span>
+                        </a>
+
+
+                        <!-- Application items drop down menu bar -->
+                        <ul class="dropdown-menu">
+                            <div class="shopping-cart-header">
+                                <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">1</span>
+                                <div class="shopping-cart-total">
+                                    <span class="lighter-text">Total:</span>
+                                    <span class="main-color-text">$2,229.97</span>
+                                </div>
+                            </div> <!--end shopping-cart-header -->
+                            <li class="clearfix">
+                                
+                                <span class="item-name">Sun King Home III</span>
+                                <span class="item-price">$849.99</span>
+                                <span class="item-quantity">Quantity: 01</span>
+                            </li>
+                            
+
+                        </ul>
+
+
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+
+
+
+    </div>
+
+    <div class="container">
+
+        <!--Application component view -->
+
+        <ng-view></ng-view>
+
+
+    </div>
+
+    <!--Javascript libraries -->
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-resource.js"></script>
+    <script src="App/module.js"></script>
+    <script src="App/products/product-list.component.js"></script>
+    <script src="App/product-rating/product-rating.component.js"></script>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>

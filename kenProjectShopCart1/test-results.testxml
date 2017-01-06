@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Tests>
+  <Test>
+    <Name>The productList component encountered a declaration exception (Chrome 55.0.2883 (Windows 10 0.0.0))</Name>
+    <DisplayName>The productList component encountered a declaration exception (Chrome 55.0.2883 (Windows 10 0.0.0))</DisplayName>
+    <Outcome>Failed</Outcome>
+    <ErrorStackTrace>ReferenceError: module is not defined
+    at jasmine.Suite.&lt;anonymous&gt; (C:/Users/OAFSIMIYU/Documents/Visual Studio 2015/Projects/kenProjectShopCart1/kenProjectShopCart1/TestScripts/product-list.spec.js:2:16)
+    at C:/Users/OAFSIMIYU/Documents/Visual Studio 2015/Projects/kenProjectShopCart1/kenProjectShopCart1/TestScripts/product-list.spec.js:1:1
+
+
+</ErrorStackTrace>
+  </Test>
+</Tests>

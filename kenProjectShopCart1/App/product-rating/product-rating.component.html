@@ -1,0 +1,9 @@
+﻿<!-- template displaying the rating view of the application -->
+
+<span ng-repeat="entry in vm.entries track by $index">
+
+    <!--using transclusion to allow usage of outer elements  -->
+    <ng-transclude>
+        *
+    </ng-transclude>
+</span>

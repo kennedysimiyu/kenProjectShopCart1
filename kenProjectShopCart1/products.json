@@ -1,0 +1,84 @@
+﻿[
+  {
+    "id": 2,
+    "name": "Green Light",
+    "rating": 2,
+    "price": 2280,
+    "choice": 9,
+    "imageUrl": "images/greenLight.png",
+    "details": ""
+  },
+  {
+    "id": 3,
+    "name": "Harvesting Dry Sheet",
+    "rating": 2,
+    "price": 1280,
+    "choice": 7,
+    "imageUrl": "images/harvestSheet.png"
+  },
+  {
+    "id": 4,
+    "name": "Small Environment Cookstove",
+    "rating": 4,
+    "price": 5580,
+    "choice": 6,
+    "imageUrl": "images/environFour.png"
+  },
+   {
+    "id": 5,
+    "name": "Actellic One",
+    "rating": 1,
+    "price": 900,
+    "choice": 8,
+    "imageUrl": "images/actellic.png"
+  },
+  {
+    "id": 1,
+    "name": "SunKing Pro",
+    "rating": 2,
+    "price": 9780,
+    "choice": 5,
+    "imageUrl": "images/sunKingPro.png"
+  },
+
+  {
+    "id": 9,
+    "name": "So Sure Re-Usable Pads",
+    "rating": 2,
+    "price": 380,
+    "choice": 4,
+    "imageUrl": "images/soSure.png"
+  },
+
+   {
+    "id": 6,
+    "name": "Super Environmant CookStove",
+    "rating": 2,
+    "price": 3280,
+    "choice": 4,
+    "imageUrl": "images/environThree.png"
+  },
+
+  {
+    "id": 7,
+    "name": "Sunking Home",
+    "rating": 2,
+    "price": 13788,
+    "choice": 3,
+    "imageUrl": "images/sunKingHome.png"
+  },
+ 
+  {
+    "id": 8,
+    "name": "SunKing Pico",
+    "rating": 2,
+    "price": 5580,
+    "choice": 2,
+    "imageUrl": "images/sunKingPico.png"
+  }
+  
+  
+]
+
+
+
